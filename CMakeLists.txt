@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1) 
-project(yolo-trt)            
+project(yolo_tensorrt)            
 
 file(GLOB_RECURSE sources     	modules/*.hpp modules/*.cpp modules/*.h modules/*.cu extra/*.h)
 add_executable(yolo-trt samples/sample_detector.cpp)
